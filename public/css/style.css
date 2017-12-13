@@ -1,0 +1,37 @@
+.flex-header {
+  height: 100%;
+  display: flex;
+  list-style: none;
+  margin-bottom: 0;
+  background-color: #AB5B19;
+
+}
+.flex-header li {
+  padding: 5px 5px 5px 5px;
+}
+.flex-header li a {
+  color: black;
+}
+.flex-header li:hover {
+  background-color: #F0D2B8;
+}
+.flex-header li a:hover {
+  text-decoration: none;
+  font-style: none;
+}
+.insertForm {
+  width: 25%;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #F0D2B8;
+}
+main {
+  margin-top: 10px;
+}
+.delete_form button:hover{
+  cursor: pointer;
+
+}
